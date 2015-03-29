@@ -2,6 +2,6 @@
   {
    "repository":  "RobbieL811/device_oppo_msm8974-common",
    "target_path": "device/oppo/msm8974-common",
-   "branch":      "cm-12.0"
+   "branch":      "staging/cm-12.1"
   }
 ]
