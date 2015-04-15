@@ -19,6 +19,7 @@
 
 # Kernel
 TARGET_KERNEL_CONFIG := ak_bacon_defconfig
+TARGET_KERNEL_SOURCE := kernel/oneplus/AK-OnePone
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=bacon user_debug=31 msm_rtb.filter=0x3F ehci-hcd.park=3 androidboot.bootdevice=msm_sdcc.1
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/uber-arm-eabi-5.0/bin/"
